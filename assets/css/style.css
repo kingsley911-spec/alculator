@@ -1,0 +1,30 @@
+*{
+    margin: auto;
+    padding: auto;
+    border-radius: 0.5rem;
+}
+#calculator{
+    background-color: #c4b9b9;
+    width: 400px;
+}
+input{
+    width: 50px;
+    box-shadow: 5px 5px 5px;
+    border: none;
+    border-radius: 0.5rem;
+}
+#screen{
+    width: 100%;
+    text-align: end;
+    height: 80px;
+    border: none;
+    border-radius: 0.5rem;
+}
+#screen :active{
+   transform: none;
+   box-shadow: none; 
+}
+input:active {
+box-shadow: none;
+transform: translate(3px,3px);
+}
