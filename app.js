@@ -5,11 +5,11 @@ for (let number =3; number <=20; number++) {
 }
 
 
-// The code below is for the AC btn
-document.getElementsByTagName("input")[1].addEventListener("click", function() {
+// // The code below is for the AC btn
+// document.getElementsByTagName("input")[1].addEventListener("click", function() {
 
-    document.getElementById("screen").value = ""
-})
+//     document.getElementById("screen").value = ""
+// })
 
 // The code below is for the DEL btn
 document.getElementsByTagName("input")[2].addEventListener("click", function() {
